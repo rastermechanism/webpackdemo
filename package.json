@@ -1,0 +1,33 @@
+{
+  "name": "homework-webpack",
+  "version": "1.0.0",
+  "description": "This is a demo and practice test for webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rastermechanism/webpackdemo.git"
+  },
+  "keywords": [
+    "webpack",
+    "module",
+    "bundler",
+    "auto",
+    "compiler"
+  ],
+  "author": "Rakesh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rastermechanism/webpackdemo/issues"
+  },
+  "homepage": "https://github.com/rastermechanism/webpackdemo#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.18.2"
+  }
+}
