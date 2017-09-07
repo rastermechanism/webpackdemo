@@ -116,7 +116,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "body{\r\n    color:blueviolet ;\r\n    background: wheat ;\r\n    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;\r\n}", ""]);
+exports.push([module.i, "body{\r\n    color:red ;\r\n    background: wheat ;\r\n    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;\r\n}", ""]);
 
 // exports
 

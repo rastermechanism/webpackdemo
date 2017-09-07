@@ -4,6 +4,7 @@
   "description": "This is a demo and practice test for webpack",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dev/bundle.js",
     "build": "webpack --watch"
   },
   "repository": {
@@ -24,10 +25,12 @@
   },
   "homepage": "https://github.com/rastermechanism/webpackdemo#readme",
   "dependencies": {
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "webpack": "^3.5.6"
   },
   "devDependencies": {
     "css-loader": "^0.28.7",
-    "style-loader": "^0.18.2"
+    "style-loader": "^0.18.2",
+    "webpack-dev-server": "^2.7.1"
   }
 }
